@@ -1,0 +1,53 @@
+/* src/components/Canvas.css */
+
+.canvasContainer {
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* Add any other styling for the canvas here */
+}
+
+
+.drawing-canvas {
+  border: 1px solid #ccc;
+}
+
+.zoom-buttons {
+  margin-bottom: 10px;
+}
+
+.editor-canvas {
+ height: 100vh;
+ width:100%;
+ overflow: scroll;
+}
+
+.section-two {
+  display: flex;
+  flex: 1;
+}
+
+.section-three {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+ 
+
+.canvas-wrapper {
+  width: 100%;
+}
+
+.canvas-wrapper canvas {
+  width: 100%; 
+}
